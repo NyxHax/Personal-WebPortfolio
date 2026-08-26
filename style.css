@@ -12,7 +12,7 @@ body {
     margin-bottom: 0;
     padding-top: 60px;
     z-index: 1;
-}/* Copyright (c) 2025 by Leonam Silva de Souza (https://codepen.io/leonam-silva-de-souza/pen/vYowKqP) */
+}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
@@ -228,7 +228,6 @@ article { display: none; }
         z-index: -1;
     }
 
-/*ASIDE - SIDEBAR*/
 
 .sidebar {
     margin-bottom: 15px;
@@ -359,7 +358,6 @@ article { display: none; }
 
     .social-item .social-link:hover { color: var(--light-gray); }
 
-/*NAVBAR*/
 
 .navbar {
     position: fixed;
@@ -392,7 +390,6 @@ article { display: none; }
     .navbar-link:hover, .navbar-link:focus { color: var(--light-gray70); }
     .navbar-link.active { color: var(--orange-yellow-crayola); }
 
-/*ABOUT*/
 
 .about .article-title { 
     margin-bottom: 15px;
@@ -454,7 +451,6 @@ article { display: none; }
     line-height: 1.6;
 }
 
-/*TESTIMONIALS*/
 
 .testimonials { margin-bottom: 30px; }
 .testimonials-title { margin-bottom: 20px; }
@@ -500,7 +496,6 @@ article { display: none; }
     overflow: hidden;
 }
 
-/*MODAL CONTAINER*/
 
 .modal-container {
     position: fixed;
@@ -641,7 +636,6 @@ article { display: none; }
 
         .clients-item img:hover { filter: grayscale(0);}
 
-/*RESUME*/
 
 .article-title { margin-bottom: 30px; }
 
@@ -737,7 +731,6 @@ article { display: none; }
     border-radius: inherit;
 }
 
-/*PORTFOLIO*/
 
 .filter-list { display: none; }
 
@@ -888,7 +881,6 @@ article { display: none; }
         font-weight: var(--fw300);
     }
 
-/*BLOG*/
 
 .blog-posts { margin-bottom: 10px; }
 
@@ -968,8 +960,6 @@ article { display: none; }
     line-height: 1.6;
     text-align: justify;
 }
-
-/*CONTACT*/
 
 .mapbox {
     position: relative;
@@ -1065,8 +1055,6 @@ textarea.form-input {
         .form-btn:disabled:hover { background: var(--border-gradient-onyx); }
             .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
-
-/*MEDIA QUERIES*/
 
 @media (min-width: 450px) {
     .clients-item { min-width: calc(33.33% - 10px); }
